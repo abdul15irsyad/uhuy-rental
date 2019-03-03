@@ -1,0 +1,51 @@
+#modal_login .modal-content{
+	border-radius: 15px;
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 10px 20px 0px;
+}
+
+#modal_login .form form .title{
+	text-align: center;
+	font-weight: bold;
+	font-size: 120%;
+	color: #1dc8cd;
+}
+
+#modal_login .form form input{
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	border: 1px solid #a2a2a2;
+	outline: none;
+	background-color: #fbfbfb;
+	padding: 10px 15px;
+}
+
+#modal_login .form form input:hover, #modal_login .form form input:focus{
+	box-shadow: 2px 2px 4px #a2a2a2;
+}
+
+/*#modal_login form.register-form p#username_already{
+	display: none;
+}*/
+
+#modal_login .form form input[type='submit']{
+	border: 0;
+	background: linear-gradient(45deg, #1de099, #1dc8cd);
+	color: #fff;
+}
+
+#modal_login .form form input[type='submit']:hover{
+	background: linear-gradient(45deg, #1dc8cd, #1dc8cd);
+}
+
+#modal_login .form .message{
+	font-size: 90%;
+	text-align: center;
+}
+
+#modal_login .form .message a{
+	color: #1dc8cd;
+	font-weight: 530;
+}
